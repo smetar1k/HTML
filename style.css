@@ -2,12 +2,12 @@
     border-radius: 15px;
     box-shadow: 0px 0px 5px rgb(255, 105, 248);
     border-color: rgb(255, 99, 185);
-    border-style: dotted;
+    border-style: dashed;
     height: 50px;
     width: 50px;
-    top: 430px;
-    left: 900px;
-    position: relative;
+    top: 390px;
+    left: 1010px;
+    position: absolute;
     background-color: rgb(255, 255, 255);
 }
 
@@ -18,9 +18,9 @@
     border-style: dotted;
     height: 50px;
     width: 50px;
-    top: 373px;
-    left: 1100px;
-    position: relative;
+    top: 390px;
+    left: 1220px;
+    position: absolute;
     background-color: rgb(255, 255, 255);
 }
 
@@ -31,9 +31,9 @@
     border-style: dotted;
     height: 50px;
     width: 50px;
-    top: 320px;
-    left: 700px;
-    position: relative;
+    top: 390px;
+    left: 575px;
+    position: absolute;
     background-color: rgb(255, 255, 255);
 }
 
@@ -44,24 +44,27 @@
     border-style: dotted;
     height: 50px;
     width: 50px;
-    top: 265px;
-    left: 500px;
-    position: relative;
+    top: 390px;
+    left: 790px;
+    position: absolute;
     background-color: rgb(255, 255, 255);
 }
 
 .ramka{
-    background-size: 100%;
+    background-size: 100% 100%;
     position: fixed;
-    background-image: URL(https://avatanplus.com/files/resources/original/579f3426e7bde15645e3b825.jpg);
+    /*background-color: rgb(206,58,229, 0.5);*/
+    background-color: rgba(255, 0, 170, 0.3);
     position: absolute;
     /* z-index: -10; */
-    width: 98vw;
+    width: 60vw;
+    background-repeat: no-repeat;
     border-color: hotpink;
     height: 98vh;
     border-radius: 15px;
     border-width: 5px;
     border-style: groove;
+    left: 370px;
 }
 
 .cat{
@@ -70,29 +73,74 @@
     top: 690px;
     right: 30px;
     position: absolute;
-
+    
 }
 
-.bow{
-    height: 400px;
-    width: 400px;
-    top: 10px;
-    right: 1400px;
+.top_cat{
+    height: 300px;
+    width: 500px;
+    top: 5px;
+    right: 1420px;
     position: absolute;
 }
 
-.pig{
+.glamour_cat{
     height: 150px;
-    width: 200px;
-    top: 10px;
-    right: 40px;
+    width: 100px;
+    top: 40px;
+    right: 1175px;
     position: absolute;
 }
 
 .cool{
     height: 350px;
-    width: 550px;
-    top: 300px;
-    right: -600px;
-    position: relative;
+    width: 700px;
+    top: 20px;
+    right: 560px;
+    position: absolute;
+}
+
+.skull1{
+    position: absolute;
+    z-index: 1000;
+    height: 40px;
+    width: 50px;
+    top: 398px;
+    left: 577px;
+
+}
+.skull2{
+    position: absolute;
+    z-index: 1000;
+    height: 40px;
+    width: 50px;
+    top: 398px;
+    left: 1223px;
+
+}
+
+.skull3{
+    position: absolute;
+    z-index: 1000;
+    height: 40px;
+    width: 50px;
+    top: 398px;
+    left: 1013px;
+
+}
+
+.skull4{
+    position: absolute;
+    z-index: 1000;
+    height: 40px;
+    width: 50px;
+    top: 398px;
+    left: 792px;
+
+}
+
+body{
+    background-image: url(https://i.postimg.cc/RCLBZJv7/image.png);
+    background-size:cover;
+    background-repeat: no-repeat;
 }

@@ -59,19 +59,19 @@
     /* z-index: -10; */
     width: 60vw;
     background-repeat: no-repeat;
-    border-color: hotpink;
+    border-color: rgb(0, 0, 0);
     height: 98vh;
     border-radius: 15px;
-    border-width: 5px;
-    border-style: groove;
+    border-width: 4px;
+    border-style: dotted;
     left: 370px;
 }
 
 .cat{
     height: 230px;
     width: 260px;
-    top: 690px;
-    right: 30px;
+    top: 720px;
+    right: 10px;
     position: absolute;
     
 }
@@ -143,4 +143,8 @@ body{
     background-image: url(https://i.postimg.cc/RCLBZJv7/image.png);
     background-size:cover;
     background-repeat: no-repeat;
+}
+
+.textbox{
+    /*This site was made by Aleferenko Nadezhda and Alferova Ksenia */
 }

@@ -1,16 +1,3 @@
-.box{
-    border-radius: 15px;
-    box-shadow: 0px 0px 5px rgb(255, 105, 248);
-    border-color: rgb(255, 99, 185);
-    border-style: dashed;
-    height: 50px;
-    width: 50px;
-    top: 390px;
-    left: 1010px;
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-}
-
 .box1{
     border-radius: 15px;
     box-shadow: 0px 0px 5px rgb(255, 105, 248);
@@ -18,8 +5,8 @@
     border-style: dotted;
     height: 50px;
     width: 50px;
-    top: 390px;
-    left: 1220px;
+    top:50vh;
+    left: 1110px;
     position: absolute;
     background-color: rgb(255, 255, 255);
 }
@@ -31,28 +18,14 @@
     border-style: dotted;
     height: 50px;
     width: 50px;
-    top: 390px;
-    left: 575px;
+    top: 480px;
+    left: 710px;
     position: absolute;
-    background-color: rgb(255, 255, 255);
-}
-
-.box3{
-    border-radius: 15px;
-    box-shadow: 0px 0px 5px rgb(255, 105, 248);
-    border-color: rgb(255, 99, 185);
-    border-style: dotted;
-    height: 50px;
-    width: 50px;
-    top: 390px;
-    left: 790px;
-    position: absolute;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 .ramka{
     background-size: 100% 100%;
-    position: fixed;
     /*background-color: rgb(206,58,229, 0.5);*/
     background-color: rgba(255, 0, 170, 0.3);
     position: absolute;
@@ -88,7 +61,7 @@
     height: 150px;
     width: 100px;
     top: 40px;
-    right: 1175px;
+    right: 1200px;
     position: absolute;
 }
 
@@ -96,7 +69,7 @@
     height: 350px;
     width: 700px;
     top: 20px;
-    right: 560px;
+    right: 581px;
     position: absolute;
 }
 
@@ -105,8 +78,8 @@
     z-index: 1000;
     height: 40px;
     width: 50px;
-    top: 398px;
-    left: 577px;
+    top: 489px;
+    right: 1109px;
 
 }
 .skull2{
@@ -114,28 +87,8 @@
     z-index: 1000;
     height: 40px;
     width: 50px;
-    top: 398px;
-    left: 1223px;
-
-}
-
-.skull3{
-    position: absolute;
-    z-index: 1000;
-    height: 40px;
-    width: 50px;
-    top: 398px;
-    left: 1013px;
-
-}
-
-.skull4{
-    position: absolute;
-    z-index: 1000;
-    height: 40px;
-    width: 50px;
-    top: 398px;
-    left: 792px;
+    top: 489px;
+    left: 1113px;
 
 }
 
@@ -146,5 +99,95 @@ body{
 }
 
 .textbox{
-    /*This site was made by Aleferenko Nadezhda and Alferova Ksenia */
+    /*This site was made by Aleferenko Nadezhda and Alferova Ksenia
+    Our telegram-channels
+    Nadya: @from_anothers_eyes
+    Ksenia: @galosha666 */
+    width: 350;
+    height: 50px;
+    font-weight: 750;
+    font-size: 20px;
+    position: absolute;
+    font-family:'Playwrite GB S';
+    text-align: center;
+    top: 400px;
+    right: 690px;
 }
+
+.textbox1{
+    width: 350;
+    height: 50px;
+    font-weight: 750;
+    font-size: 20px;
+    position: absolute;
+    font-family:'Playwrite GB S';
+    text-align: center;
+    top: 540px;
+    right: 1100px;
+}
+
+.textbox2{
+    width: 350;
+    height: 50px;
+    font-weight: 750;
+    font-size: 20px;
+    position: absolute;
+    font-family:'Playwrite GB S';
+    text-align: center;
+    top: 540px;
+    left: 1100px;
+}
+
+.razdel{
+    width: 245px;
+    height: 87px;
+    position: absolute;
+    left: 813px;
+    top: 480px;
+    box-shadow: 1px 1px 15px 5px rgb(255, 33, 225);
+    border-width: 3px;
+    border-radius: 15px;
+}
+
+
+
+.bat1{
+    width: 90px;
+    height: 87px;
+    position: absolute;
+    right: 570px;
+    top: 80px; 
+}
+
+.dracula{
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    left: 40px;
+    bottom: 0px; 
+}
+
+.stars{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 40px;
+    bottom: 0px; 
+}
+
+*{cursor: url(https://static.planetminecraft.com/files/avatar/1279219_3.gif), auto !important;}
+
+
+/*        Nadya: @from_anothers_eyes <br>
+Ksenia: @sssya4*/
+/* 
+https://img1.picmix.com/output/pic/normal/2/9/7/1/11551792_7d92f.gif
+    https://data2.gallery.ru/albums/gallery/64517-1d79f-6461414-m750x740.jpg
+    https://www.animaatjes.nl/glitter-plaatjes/e/emo/glitter-plaatjes-emo-animaatjes-61.gif
+    https://i.pinimg.com/originals/42/94/d1/4294d1c33a44689e7ef451381e7823cf.gif
+    https://i.pinimg.com/originals/f2/6b/87/f26b879fcfa442917f5175e2097f0fc6.gif
+    https://i.pinimg.com/originals/61/bd/2b/61bd2b695ed97db86550cd9350819e3d.gif
+    https://youtu.be/X8XW2gsolEI?si=Yge0z0WG89xmZXru
+    https://img1.picmix.com/output/pic/thumb/3/4/9/0/12000943_b822f.gif
+    https://img.likeness.ru/12/71/12717/1490255919.gif
+*/

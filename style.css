@@ -3,11 +3,11 @@
     box-shadow: 0px 0px 5px rgb(255, 105, 248);
     border-color: rgb(255, 99, 185);
     border-style: dotted;
-    height: 50px;
-    width: 50px;
-    top:50vh;
-    left: 1110px;
-    position: absolute;
+    height: 5vh;
+    width: 5vh;
+    top: 1%;
+    left: 50%;
+    position: relative;
     background-color: rgb(255, 255, 255);
 }
 
@@ -20,7 +20,7 @@
     width: 50px;
     top: 480px;
     left: 710px;
-    position: absolute;
+    position: relative;
     background-color: rgb(0, 0, 0);
 }
 
@@ -28,7 +28,7 @@
     background-size: 100% 100%;
     /*background-color: rgb(206,58,229, 0.5);*/
     background-color: rgba(255, 0, 170, 0.3);
-    position: absolute;
+    position: relative;
     /* z-index: -10; */
     width: 60vw;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@
     border-radius: 15px;
     border-width: 4px;
     border-style: dotted;
-    left: 370px;
+    left: 20%;
 }
 
 .cat{
@@ -45,7 +45,7 @@
     width: 260px;
     top: 720px;
     right: 10px;
-    position: absolute;
+    position: relative;
     
 }
 
@@ -54,7 +54,7 @@
     width: 500px;
     top: 5px;
     right: 1420px;
-    position: absolute;
+    position: relative;
 }
 
 .glamour_cat{
@@ -62,19 +62,19 @@
     width: 100px;
     top: 40px;
     right: 1200px;
-    position: absolute;
+    position: relative;
 }
 
 .cool{
-    height: 350px;
-    width: 700px;
-    top: 20px;
-    right: 581px;
-    position: absolute;
+    height: 35vh;
+    width: 38vw;
+    top: 1%;
+    left: 4%;
+    position:relative;
 }
 
 .skull1{
-    position: absolute;
+    position: relative;
     z-index: 1000;
     height: 40px;
     width: 50px;
@@ -83,7 +83,7 @@
 
 }
 .skull2{
-    position: absolute;
+    position: relative;
     z-index: 1000;
     height: 40px;
     width: 50px;
@@ -103,15 +103,15 @@ body{
     Our telegram-channels
     Nadya: @from_anothers_eyes
     Ksenia: @galosha666 */
-    width: 350;
-    height: 50px;
+    width: 35vw;
+    height: 5vh;
     font-weight: 750;
     font-size: 20px;
-    position: absolute;
+    position: relative;
     font-family:'Playwrite GB S';
     text-align: center;
-    top: 400px;
-    right: 690px;
+    top: 30%;
+    right: 70%;
 }
 
 .textbox1{
@@ -119,7 +119,7 @@ body{
     height: 50px;
     font-weight: 750;
     font-size: 20px;
-    position: absolute;
+    position: relative;
     font-family:'Playwrite GB S';
     text-align: center;
     top: 540px;
@@ -131,7 +131,7 @@ body{
     height: 50px;
     font-weight: 750;
     font-size: 20px;
-    position: absolute;
+    position: relative;
     font-family:'Playwrite GB S';
     text-align: center;
     top: 540px;
@@ -141,7 +141,7 @@ body{
 .razdel{
     width: 245px;
     height: 87px;
-    position: absolute;
+    position: relative;
     left: 813px;
     top: 480px;
     box-shadow: 1px 1px 15px 5px rgb(255, 33, 225);
@@ -154,7 +154,7 @@ body{
 .bat1{
     width: 90px;
     height: 87px;
-    position: absolute;
+    position: relative;
     right: 570px;
     top: 80px; 
 }
@@ -162,7 +162,7 @@ body{
 .dracula{
     width: 300px;
     height: 600px;
-    position: absolute;
+    position: relative;
     left: 40px;
     bottom: 0px; 
 }
@@ -170,7 +170,7 @@ body{
 .stars{
     width: 200px;
     height: 200px;
-    position: absolute;
+    position: relative;
     left: 40px;
     bottom: 0px; 
 }

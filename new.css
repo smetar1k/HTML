@@ -1,0 +1,46 @@
+body{
+    background-image: url(https://i.postimg.cc/RCLBZJv7/image.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* padding: 0px; */
+    /* margin: 0px; */
+}
+/* img{
+    width: 100px;
+} */
+
+.ramka{
+    margin: 0px auto;
+    display: grid;
+    background-color: rgba(255, 0, 170, 0.3);
+    width: 60vw;
+    height: 98vh;
+    border-radius: 1%;
+}
+
+.papa_ramka{
+    display: flex;
+}
+
+.glamour_cat{
+    width: 8%;
+    left: 28%;
+    position:fixed;
+}
+.cool{
+    position:fixed;
+    left: 31%;
+    width: 40%;
+}
+.bat1{
+    position:fixed;
+    left: 70%;
+    width: 5%;
+}
+
+
+.ramka_top{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+}

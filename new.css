@@ -13,7 +13,7 @@ body{
     margin: 0px auto;
     display: grid;
     background-color: rgba(255, 0, 170, 0.3);
-    width: 60vw;
+    width: 1150px;
     height: 98vh;
     border-radius: 1%;
 }
@@ -35,9 +35,9 @@ body{
 
 .junkat{
     position:fixed;
-    left: 80%;
-    width: 2%;
-    top: 10%;
+    left: 66.4%;
+    width: 5%;
+    top: 7%;
     z-index: 1000;
 }
 
